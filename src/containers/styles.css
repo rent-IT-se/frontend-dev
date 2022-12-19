@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.wrapper0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.tit0{
+    margin:20px;
+}
+.imgWrap0{
+    max-width: 500px;
+    display: flex;
+}
+.img0{
+    max-width: 100%;
+}

@@ -1,0 +1,37 @@
+@import-normalize;
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  
+}
+.title1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 30px; 
+  font-weight: 600;
+}
+.arrow{
+  position: absolute;
+  align-self: flex-start;
+  right: 93%;
+  top:35px;
+  cursor: pointer;
+}
+.link1{
+  text-decoration: none;
+  color:#000;
+}
+.link1:hover{
+  color:#29974D;
+}
+.link2{
+  text-decoration: none;
+  color :#29974D;
+}
+
+.bread{
+  padding: 40px;
+}
+

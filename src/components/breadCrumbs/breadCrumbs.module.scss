@@ -1,0 +1,16 @@
+.active {
+    text-decoration: none;
+    color:black;
+}
+.notActive{
+    color: rgba(3, 1, 4, 0.6);
+    text-decoration: none;
+
+}
+.notActive:hover{
+    color:  #29974D;  
+}
+.slash{
+    margin-left: 3px;
+    margin-right: 3px;
+}

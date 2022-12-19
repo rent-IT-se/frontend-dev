@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.or{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+.line{
+    width: 124px;
+    border-bottom: 1px solid #9E9E9E;
+
+}
+.divider{   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3B3B3B;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.end{
+    margin-top: 30px;
+}
+.social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.socialLogo{
+    position: absolute;
+}

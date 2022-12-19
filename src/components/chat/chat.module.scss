@@ -1,0 +1,165 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.chatWrap{
+    display: flex;
+    height: 80vh;
+    
+}
+.Title{
+    color: #030104;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+.contacts{
+    width: 35%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.chats{
+    width: 65%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header{
+    height: 69px;
+    background: #F9F9F9;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contactItem{
+    display: flex;
+    height: 70px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.imgWrap1{
+    width: 60px;
+    height: 60px;
+}
+.profImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.contactInfo{
+    display: flex;
+    align-items: center;
+    text-decoration: none   ;
+}
+.cotactName{
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 17px;
+    color: #030104;
+}
+.txt{
+    margin-left: 10px;
+}
+.lastTxt{
+    color: rgba(3, 1, 4, 0.4);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+.contactProduct{
+    width: 60px;
+    height: 60px;
+}
+.productImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.scroll1{
+    overflow-y: scroll;
+}
+.chatScroll{
+    overflow-y: scroll;
+    height: 92%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.inputPart{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Wrap2{
+    height: 90%;
+    
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.messageDate{
+    text-align: center;
+    padding: 20px;
+    color: rgba(3, 1, 4, 0.4);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.messageContainer{
+    background: #F2F5F7;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    max-width: 300px;
+    align-items: flex-end;
+    margin-top: 5px;
+    justify-content:space-between;
+}
+.message{
+    display:flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+.messageTxt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+.messagesWrap{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+      
+
+}
+.messageTime{
+    color: rgba(3, 1, 4, 0.4);
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+.postMessage{
+    display: flex;
+    
+}
+.SubmitBtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:0;
+    cursor: pointer;
+    background-color: #030104;
+}
+.SubmitBtn:hover{
+    background-color:green;
+}

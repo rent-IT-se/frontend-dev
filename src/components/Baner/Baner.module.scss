@@ -1,0 +1,63 @@
+.wrapper{
+    width: 100%;
+    height: 600px;
+    
+}
+.mySlider{
+    width: 100%;
+    height: 100%;
+}
+.swipe{
+    width: 100%;
+    height: 100%;
+    background: url("../../img/slideBack.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bannerTitle{
+    color: #29974D;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.SwipeDesc{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3B3B3B;
+}
+.banertxt{
+    max-width: 600px;
+    
+}
+.help{
+    position: absolute;
+    z-index: 999;
+    bottom: 5%;
+    left: 90%;
+    cursor: pointer;
+}
+.slideWpap{
+    max-width: 500px;
+}
+.bannerDesc{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 72px;
+}
+.bold{
+    color:#29974D;
+    font-weight: 600;
+}
+.desc2{
+    color: #9A9A9A;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.banerTtx{
+    margin-bottom: 40px;
+}

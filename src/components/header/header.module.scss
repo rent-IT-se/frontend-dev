@@ -1,0 +1,96 @@
+.topHead{
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}   
+.leftF{
+    display: flex;
+    p{
+        color:#fff9
+    }
+}
+
+.wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rPics{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lPics{
+    width: 300px;
+    
+}
+.pics{
+    width: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;    
+}
+.pic{
+    cursor: pointer;
+    
+}
+.pic1{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.link1{
+    text-decoration: none;
+    color: rgba(3, 1, 4, 0.6);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.link1:hover{
+    color: #2E9850;
+}
+.link1:focus{
+    color: #2E9850;
+}
+.link1:active{
+    color: #2E9850;
+}
+// .list{
+   
+// }
+.item{
+    
+    margin-right: 40px;
+    .item1{
+        margin: 0;
+    }
+}
+.menuItem{
+    margin-left: 10px;
+}
+.pic2{
+    margin-right: 15px;
+}
+.link2{
+    text-decoration: none;
+    color: #000;
+    
+}

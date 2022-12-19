@@ -1,0 +1,20 @@
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    @media (max-width: 700px) {
+        flex-direction: column;
+        justify-content: center;
+        .d{
+            width: 80%;
+        }
+    }
+}
+.rentPic{
+    object-fit: cover;
+    max-width: 100%;
+   
+}

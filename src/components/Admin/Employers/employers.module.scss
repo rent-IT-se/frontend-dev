@@ -1,0 +1,25 @@
+.wrapper{
+    padding-top:50px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.addBtn{
+    background: #2E9850;
+    border-radius: 10px;
+    border: 0;
+    color:white;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.empty{
+    width:60px
+}

@@ -1,0 +1,65 @@
+.wrapper{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputLogin {
+    margin-top: 60px ;
+    margin-bottom: 32px ;
+}
+.form1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+   
+}   
+.ref{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.btn{
+    margin-top: 35px;
+}
+.or{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+.line{
+    width: 124px;
+    border-bottom: 1px solid #9E9E9E;
+
+}
+.divider{   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3B3B3B;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.end{
+    margin-top: 30px;
+}
+.social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.socialLogo{
+    position: absolute;
+}
+.stylesBtn{ 
+    margin-bottom: 10px;
+}
+.link2{
+    text-decoration: none;
+    color:#29974D;
+}

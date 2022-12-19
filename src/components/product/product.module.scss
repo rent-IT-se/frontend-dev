@@ -1,0 +1,96 @@
+.wrapper{
+    padding: 5%;
+    padding-top:0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.productWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.imageSide{
+    max-width: 600px;
+    height: 400px;
+}
+.mySlider{
+    max-width: 600px;
+    height: 400px;
+}
+.productImg{
+    width: 100%;
+    height: 100%;
+}
+.txtSide{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productTitle{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #030104;
+    margin-bottom: 40px;
+    max-height: 2.5em;
+    overflow-y: hidden;
+}
+.info1{
+    display: flex;
+    align-items: center;
+}
+.ownerInfo{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.ownerAva{
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    margin-right:10px;
+}
+.ownerName{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(3, 1, 4, 0.6);
+}
+.viewsItem{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.itemNum{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(3, 1, 4, 0.4);
+    margin-left: 3px;
+}
+.productViews{
+    display: flex;
+}
+.btnBlock{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.panel{
+    padding-top: 10px;
+    min-height: 100px;
+    overflow-y: scroll;
+    height: 150px;
+}
+.panelLabel{
+    color: #000000;
+    text-transform: none;
+
+}
+.panelTxt{
+    line-height: 20px;
+}
+.characteristic{
+    margin-top: 20px;
+}

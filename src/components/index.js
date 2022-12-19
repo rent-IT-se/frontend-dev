@@ -1,0 +1,12 @@
+import CatalogHead from "./catalog/CatalogHead"
+export {Fon} from "./background/Fon"
+export {LoginForm} from "./loginForm/LoginForm"
+export {RegisterForm} from "./registerForm/RegisterForm"
+export {SendEmailForm} from "./changePass/SendEmailForm"
+export {ConfirmCode} from "./changePass/ConfirmCode"
+export {ResetPass} from "./changePass/ResetPass"
+export {Baner} from "./Baner/Baner"
+export {Categories} from "./categories/Categories"
+export {ShopSwipe} from "./ShopSwipe/ShopSwipe"
+export {Head} from "./header/Head"
+export {CatalogHead}

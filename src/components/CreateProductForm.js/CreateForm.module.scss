@@ -1,0 +1,114 @@
+.Title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #030104;
+    text-align: center;
+}
+.wrap2{
+    display: flex;
+    justify-content: center;
+
+}
+.formWrap{
+    width: 530px;
+}
+.partTitle{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030104;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: rgba(3, 1, 4, 0.4);
+}
+.ImgWrap{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.Preview{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.postBtn{
+    background: #2E9850;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputBtn {
+    display: none;
+}
+.ImgPrev{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex:2;
+}
+.ImgFlex{
+    display: flex;
+    margin-bottom: 20px;
+}
+.firstImgWrap{
+    width: 250px;
+    height: 250px;
+    flex:1.6
+}
+.firstImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.infoBlock{
+    position: absolute;
+    width: 258px;
+    height: 265px;
+    display: inline-block;
+    left: 80%;
+    background: #EFF9F2;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(3, 1, 4, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap{
+    position: relative;
+}
+.priceWrap{
+    display: flex;
+}
+.partPrice{
+    display: flex;
+}
+.Flex{
+    display: flex  ;
+    margin-left: 25px;
+}
+.partTitle1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030104;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
